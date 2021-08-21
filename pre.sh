@@ -9,7 +9,7 @@ sudo systemctl disable --now isucondition.go.service
 sleep 1
 
 ## language specific build code here
-cd webapp/go && make
+cd ~/webapp/go && make
 
 ## log rotate
 sudo cp /var/log/nginx/access.log /var/log/nginx/access.log-`date "+%s"`
