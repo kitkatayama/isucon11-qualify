@@ -1,6 +1,7 @@
 #!/bin/bash
 set -ex
 
+. /home/isucon/.bash_profile
 /home/isucon/env.sh
 
 #------------
